@@ -16,6 +16,7 @@ import { Link, GatsbyLinkProps as LinkProps } from "gatsby";
 
 import * as p from "@plasmicapp/react-web";
 import * as ph from "@plasmicapp/host";
+
 import * as pp from "@plasmicapp/react-web";
 import {
   hasVariant,
@@ -104,17 +105,17 @@ function PlasmicSelect__Option__RenderFunc(props: {
       {
         path: "isSelected",
         type: "private",
-        initFunc: ($props, $state) => $props["isSelected"]
+        initFunc: ($props, $state) => $props.isSelected
       },
       {
         path: "isHighlighted",
         type: "private",
-        initFunc: ($props, $state) => $props["isHighlighted"]
+        initFunc: ($props, $state) => $props.isHighlighted
       },
       {
         path: "isDisabled",
         type: "private",
-        initFunc: ($props, $state) => $props["isDisabled"]
+        initFunc: ($props, $state) => $props.isDisabled
       }
     ],
     [$props]

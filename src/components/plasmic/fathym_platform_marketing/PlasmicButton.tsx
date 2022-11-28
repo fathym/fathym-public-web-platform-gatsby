@@ -16,6 +16,7 @@ import { Link, GatsbyLinkProps as LinkProps } from "gatsby";
 
 import * as p from "@plasmicapp/react-web";
 import * as ph from "@plasmicapp/host";
+
 import * as pp from "@plasmicapp/react-web";
 import {
   hasVariant,
@@ -159,32 +160,32 @@ function PlasmicButton__RenderFunc(props: {
       {
         path: "showStartIcon",
         type: "private",
-        initFunc: ($props, $state) => $props["showStartIcon"]
+        initFunc: ($props, $state) => $props.showStartIcon
       },
       {
         path: "showEndIcon",
         type: "private",
-        initFunc: ($props, $state) => $props["showEndIcon"]
+        initFunc: ($props, $state) => $props.showEndIcon
       },
       {
         path: "isDisabled",
         type: "private",
-        initFunc: ($props, $state) => $props["isDisabled"]
+        initFunc: ($props, $state) => $props.isDisabled
       },
       {
         path: "shape",
         type: "private",
-        initFunc: ($props, $state) => $props["shape"]
+        initFunc: ($props, $state) => $props.shape
       },
       {
         path: "size",
         type: "private",
-        initFunc: ($props, $state) => $props["size"]
+        initFunc: ($props, $state) => $props.size
       },
       {
         path: "color",
         type: "private",
-        initFunc: ($props, $state) => $props["color"]
+        initFunc: ($props, $state) => $props.color
       }
     ],
     [$props]

@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@plasmicapp/cli": "^0.1.187",
-    "@plasmicapp/host": "^1.0.81",
+    "@plasmicapp/host": "^1.0.85",
     "@plasmicapp/react-web": "^0.2.117",
     "@plasmicpkgs/lottie-react": "^0.0.69",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.88",

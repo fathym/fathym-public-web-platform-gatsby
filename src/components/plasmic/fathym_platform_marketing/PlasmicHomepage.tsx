@@ -86,7 +86,6 @@ export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   header2?: p.Flex<typeof Header2>;
   header?: p.Flex<typeof Header>;
-  h1?: p.Flex<"h1">;
   solutions?: p.Flex<typeof Solutions>;
   platformTechnology?: p.Flex<typeof PlatformTechnology>;
   features?: p.Flex<"section">;
@@ -514,17 +513,89 @@ function PlasmicHomepage__RenderFunc(props: {
                         {"Fathym Platform"}
                       </div>
 
-                      <h1
-                        data-plasmic-name={"h1"}
-                        data-plasmic-override={overrides.h1}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h1,
-                          projectcss.__wab_text,
-                          sty.h1
-                        )}
-                      >
-                        {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <h1
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h1,
+                            projectcss.__wab_text,
+                            sty.h1__p04Lr
+                          )}
+                        >
+                          {hasVariant(
+                            globalVariants,
+                            "screen",
+                            "mobileOnly"
+                          ) ? (
+                            <React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#000000" }}
+                              >
+                                {"Cloud-native app deployment, "}
+                              </span>
+                              <React.Fragment>{"\n"}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#0091FF" }}
+                              >
+                                {"out-of-the-box"}
+                              </span>
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#000000" }}
+                              >
+                                {"."}
+                              </span>
+                            </React.Fragment>
+                          ) : (
+                            <React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#000000" }}
+                              >
+                                {"Cloud-native app deployment,"}
+                              </span>
+                              <React.Fragment> </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#0091FF" }}
+                              >
+                                {"out-of-the-box"}
+                              </span>
+                              <React.Fragment>{"."}</React.Fragment>
+                            </React.Fragment>
+                          )}
+                        </h1>
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <h1
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h1,
+                            projectcss.__wab_text,
+                            sty.h1__vyCzf
+                          )}
+                        >
                           <React.Fragment>
                             <span
                               className={
@@ -550,32 +621,11 @@ function PlasmicHomepage__RenderFunc(props: {
                               }
                               style={{ color: "#000000" }}
                             >
-                              {"."}
+                              {". "}
                             </span>
                           </React.Fragment>
-                        ) : (
-                          <React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ color: "#000000" }}
-                            >
-                              {"Cloud-native app deployment,"}
-                            </span>
-                            <React.Fragment> </React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ color: "#0091FF" }}
-                            >
-                              {"out-of-the-box"}
-                            </span>
-                            <React.Fragment>{"."}</React.Fragment>
-                          </React.Fragment>
-                        )}
-                      </h1>
+                        </h1>
+                      ) : null}
 
                       <div
                         className={classNames(
@@ -2475,7 +2525,6 @@ const PlasmicDescendants = {
     "root",
     "header2",
     "header",
-    "h1",
     "solutions",
     "platformTechnology",
     "features",
@@ -2494,7 +2543,6 @@ const PlasmicDescendants = {
   ],
   header2: ["header2"],
   header: ["header"],
-  h1: ["h1"],
   solutions: ["solutions"],
   platformTechnology: ["platformTechnology"],
   features: [
@@ -2526,7 +2574,6 @@ type NodeDefaultElementType = {
   root: "div";
   header2: typeof Header2;
   header: typeof Header;
-  h1: "h1";
   solutions: typeof Solutions;
   platformTechnology: typeof PlatformTechnology;
   features: "section";
@@ -2607,7 +2654,6 @@ export const PlasmicHomepage = Object.assign(
     // Helper components rendering sub-elements
     header2: makeNodeComponent("header2"),
     header: makeNodeComponent("header"),
-    h1: makeNodeComponent("h1"),
     solutions: makeNodeComponent("solutions"),
     platformTechnology: makeNodeComponent("platformTechnology"),
     features: makeNodeComponent("features"),

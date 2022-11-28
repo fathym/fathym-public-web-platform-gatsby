@@ -2358,7 +2358,7 @@
         {
           "id": "8nXxwm_GTxN5VY",
           "name": "Fetcher",
-          "componentImportPath": "@plasmicapp/data-sources"
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
         }
       ]
     },
@@ -3223,7 +3223,8 @@
           "name": "LottieWrapper",
           "componentImportPath": "@plasmicpkgs/lottie-react"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "YUiM7yqBWAqsh8KSnrdj7",
@@ -3247,7 +3248,8 @@
           "name": "GraphqlFetcher",
           "componentImportPath": "@plasmicpkgs/plasmic-query"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {
