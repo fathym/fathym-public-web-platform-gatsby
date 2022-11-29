@@ -1411,45 +1411,6 @@
           "plumeType": "text-input"
         },
         {
-          "id": "FX1EtTY7PQkR-2",
-          "name": "Features",
-          "type": "managed",
-          "projectId": "6fZSWkofPMXR1NLi1bFj7o",
-          "renderModuleFilePath": "plasmic/fathym_platform_marketing/PlasmicFeatures.tsx",
-          "importSpec": {
-            "modulePath": "../pages/features.tsx"
-          },
-          "cssFilePath": "plasmic/fathym_platform_marketing/PlasmicFeatures.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "asC7ZWwCfTlcUW",
-          "name": "AboutUs",
-          "type": "managed",
-          "projectId": "6fZSWkofPMXR1NLi1bFj7o",
-          "renderModuleFilePath": "plasmic/fathym_platform_marketing/PlasmicAboutUs.tsx",
-          "importSpec": {
-            "modulePath": "../pages/about-us.tsx"
-          },
-          "cssFilePath": "plasmic/fathym_platform_marketing/PlasmicAboutUs.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "IZAMW8XxTAoG6L",
-          "name": "Contact",
-          "type": "managed",
-          "projectId": "6fZSWkofPMXR1NLi1bFj7o",
-          "renderModuleFilePath": "plasmic/fathym_platform_marketing/PlasmicContact.tsx",
-          "importSpec": {
-            "modulePath": "../pages/contact.tsx"
-          },
-          "cssFilePath": "plasmic/fathym_platform_marketing/PlasmicContact.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "x4xcWpiY2aH-4f",
           "name": "Select",
           "type": "managed",
@@ -1518,19 +1479,6 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "checkbox"
-        },
-        {
-          "id": "kdo3rNzvrvZiI0",
-          "name": "Pricing",
-          "type": "managed",
-          "projectId": "6fZSWkofPMXR1NLi1bFj7o",
-          "renderModuleFilePath": "plasmic/fathym_platform_marketing/PlasmicPricing.tsx",
-          "importSpec": {
-            "modulePath": "../pages/pricing.tsx"
-          },
-          "cssFilePath": "plasmic/fathym_platform_marketing/PlasmicPricing.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
         },
         {
           "id": "IZ-2R-4QzkjxPd",
@@ -1609,32 +1557,6 @@
           "cssFilePath": "plasmic/fathym_platform_marketing/PlasmicSolutions.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "dmv0ZenQJxjyFL",
-          "name": "Technology2",
-          "type": "managed",
-          "projectId": "6fZSWkofPMXR1NLi1bFj7o",
-          "renderModuleFilePath": "plasmic/fathym_platform_marketing/PlasmicTechnology2.tsx",
-          "importSpec": {
-            "modulePath": "../pages/technology.tsx"
-          },
-          "cssFilePath": "plasmic/fathym_platform_marketing/PlasmicTechnology2.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "WN4buI7DZg3T5j",
-          "name": "Solutions2",
-          "type": "managed",
-          "projectId": "6fZSWkofPMXR1NLi1bFj7o",
-          "renderModuleFilePath": "plasmic/fathym_platform_marketing/PlasmicSolutions2.tsx",
-          "importSpec": {
-            "modulePath": "../pages/solutions.tsx"
-          },
-          "cssFilePath": "plasmic/fathym_platform_marketing/PlasmicSolutions2.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
         },
         {
           "id": "PwalIDIYTo",
@@ -3271,6 +3193,12 @@
         "name": "Screen",
         "projectId": "cEHjHBABazmDxgQhPGAjL",
         "contextFilePath": "plasmic/habistack_marketing/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "282C4sCkAq",
+        "name": "UnnamedGlobalGroupOfVariants",
+        "projectId": "6fZSWkofPMXR1NLi1bFj7o",
+        "contextFilePath": "plasmic/fathym_platform_marketing/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants.tsx"
       }
     ]
   },

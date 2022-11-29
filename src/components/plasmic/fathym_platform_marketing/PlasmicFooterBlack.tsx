@@ -188,7 +188,6 @@ function PlasmicFooterBlack__RenderFunc(props: {
                   sty.link__vdLn
                 )}
                 component={Link}
-                href={`/pricing`}
                 platform={"gatsby"}
               >
                 {"Pricing "}
@@ -202,7 +201,6 @@ function PlasmicFooterBlack__RenderFunc(props: {
                   sty.link___7W6M
                 )}
                 component={Link}
-                href={`/contact`}
                 platform={"gatsby"}
               >
                 {"Contact"}

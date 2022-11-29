@@ -41,7 +41,8 @@
   --plasmic-token-unnamed-style-token-9: var(--token-rgLSe_I6WUfJvd);
 }
 
-.plasmic_default_styles {
+.plasmic_default_styles,
+.plasmic_default_styles:where(.global_unnamedGlobalGroupOfVariants_unnamedVariant) {
   --mixin-UJdg5-shUg38x__font-family: "Roboto", sans-serif;
   --mixin-UJdg5-shUg38x__font-size: 16px;
   --mixin-UJdg5-shUg38x__font-weight: 400;

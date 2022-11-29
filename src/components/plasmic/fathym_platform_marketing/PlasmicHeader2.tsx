@@ -147,7 +147,6 @@ function PlasmicHeader2__RenderFunc(props: {
                 sty.link__pPvJ
               )}
               component={Link}
-              href={`/about-us`}
               platform={"gatsby"}
             >
               {true ? (
@@ -185,7 +184,6 @@ function PlasmicHeader2__RenderFunc(props: {
                 sty.link__abUf8
               )}
               component={Link}
-              href={`/about-us`}
               platform={"gatsby"}
             >
               {false ? (
