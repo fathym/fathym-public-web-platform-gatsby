@@ -890,6 +890,23 @@
 .img__ufOb4 > :global(.__wab_img-spacer) > img {
   object-fit: fill;
 }
+@media (min-width: 0px) and (max-width: 767px) {
+  .img__ufOb4 {
+    object-fit: fill;
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .img__ufOb4 > picture > img {
+    object-fit: fill;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .img__ufOb4 > :global(.__wab_img-spacer) > img {
+    object-fit: fill;
+  }
+}
 .columns__nMomx {
   display: flex;
   position: relative;
@@ -1022,6 +1039,12 @@
 .img__wKicv > :global(.__wab_img-spacer) > img {
   object-fit: fill;
 }
+@media (min-width: 0px) and (max-width: 767px) {
+  .img__wKicv {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .columns__zduZk {
   display: flex;
   position: relative;
@@ -1153,6 +1176,23 @@
 }
 .img__oS > :global(.__wab_img-spacer) > img {
   object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .img__oS {
+    object-fit: fill;
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .img__oS > picture > img {
+    object-fit: fill;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .img__oS > :global(.__wab_img-spacer) > img {
+    object-fit: fill;
+  }
 }
 .columns___9WGhA {
   display: flex;

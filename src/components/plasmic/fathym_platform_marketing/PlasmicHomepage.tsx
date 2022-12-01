@@ -817,7 +817,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.h2__iGobM
                     )}
                   >
-                    {"Low-code solutions for taming cloud complexity."}
+                    {"Low-code solutions for \ntaming cloud complexity."}
                   </h2>
                 ) : null}
                 {true ? (
@@ -846,7 +846,11 @@ function PlasmicHomepage__RenderFunc(props: {
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("100%" as const)
+                          : ("auto" as const)
+                      }
                       loading={"lazy" as const}
                       src={{
                         src: microsoftTeamsImage30PngPwalkPoYa,
@@ -944,7 +948,11 @@ function PlasmicHomepage__RenderFunc(props: {
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("100%" as const)
+                          : ("auto" as const)
+                      }
                       loading={"lazy" as const}
                       src={{
                         src: routeScreenshotjpgZgtw1ArX,
@@ -971,7 +979,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h4__dqLQb
                           )}
                         >
-                          {"Low-Code Meets Artificial Intelligence​"}
+                          {"Low-code meets Artificial Intelligence​."}
                         </h4>
 
                         {true ? (
@@ -1044,7 +1052,11 @@ function PlasmicHomepage__RenderFunc(props: {
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("100%" as const)
+                          : ("auto" as const)
+                      }
                       loading={"lazy" as const}
                       src={{
                         src: microsoftTeamsImage29PngVgis0Ofiy,
