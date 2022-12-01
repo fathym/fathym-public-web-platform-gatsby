@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@plasmicapp/cli": "^0.1.187",
+    "@plasmicapp/cli": "^0.1.188",
     "@plasmicapp/host": "^1.0.85",
     "@plasmicapp/react-web": "^0.2.117",
     "@plasmicpkgs/lottie-react": "^0.0.69",

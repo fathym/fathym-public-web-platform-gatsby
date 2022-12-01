@@ -92,6 +92,8 @@ function PlasmicTechnology__RenderFunc(props: {
 
   const currentUser = p.useCurrentUser?.() || {};
 
+  const [$queries, setDollarQueries] = React.useState({});
+
   return (
     <section
       data-plasmic-name={"root"}

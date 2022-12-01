@@ -2267,6 +2267,16 @@
           "id": "PXOyhsqFy",
           "name": "fathymaqua-01.svg 2",
           "filePath": "plasmic/fathym_platform_marketing/images/fathymaqua01Svg2.svg"
+        },
+        {
+          "id": "VGIS0ofiy",
+          "name": "MicrosoftTeams-image (29).png",
+          "filePath": "plasmic/fathym_platform_marketing/images/microsoftTeamsImage29Png.png"
+        },
+        {
+          "id": "pwalkPoYA",
+          "name": "MicrosoftTeams-image (30).png",
+          "filePath": "plasmic/fathym_platform_marketing/images/microsoftTeamsImage30Png.png"
         }
       ],
       "indirect": false,
@@ -3206,6 +3216,6 @@
   "gatsbyConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.187",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.187/dist/plasmic.schema.json"
+  "cliVersion": "0.1.188",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.188/dist/plasmic.schema.json"
 }

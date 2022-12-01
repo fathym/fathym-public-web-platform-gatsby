@@ -80,6 +80,8 @@ function PlasmicPlatformTechnology__RenderFunc(props: {
 
   const currentUser = p.useCurrentUser?.() || {};
 
+  const [$queries, setDollarQueries] = React.useState({});
+
   return (
     <Technology
       data-plasmic-name={"root"}
