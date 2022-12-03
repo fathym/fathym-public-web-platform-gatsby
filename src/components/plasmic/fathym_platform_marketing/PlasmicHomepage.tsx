@@ -326,7 +326,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           role={"img"}
                         />
                       }
-                      link={"https://www.fathym.com/docs" as const}
+                      link={"https://www.fathym.com/technology" as const}
                       startIcon={
                         <ChecksvgIcon
                           className={classNames(projectcss.all, sty.svg__pnpbY)}
@@ -339,6 +339,38 @@ function PlasmicHomepage__RenderFunc(props: {
                           projectcss.all,
                           projectcss.__wab_text,
                           sty.text__bnPy
+                        )}
+                      >
+                        {"Technology"}
+                      </div>
+                    </Button>
+                  ) : null}
+                  {true ? (
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__uw7Fz
+                      )}
+                      color={"clear" as const}
+                      endIcon={
+                        <Icon38Icon
+                          className={classNames(projectcss.all, sty.svg__vbFcs)}
+                          role={"img"}
+                        />
+                      }
+                      link={"https://www.fathym.com/docs" as const}
+                      startIcon={
+                        <ChecksvgIcon
+                          className={classNames(projectcss.all, sty.svg__lHIuC)}
+                          role={"img"}
+                        />
+                      }
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__hOMo6
                         )}
                       >
                         {"Docs"}
