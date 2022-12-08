@@ -35,6 +35,10 @@ import {
 } from "@plasmicapp/react-web";
 import Header2 from "../../Header2"; // plasmic-import: QRI3WiNK3jkO2A/component
 import Button from "../../Button"; // plasmic-import: 7une6Ae6nQQ_5/component
+import { Dropdown } from "@plasmicpkgs/antd/skinny/registerDropdown"; // plasmic-import: cv59X4q0WK/codeComponent
+import Menu from "antd/lib/menu/index"; // plasmic-import: Iz_hLKpHZDg/codeComponent
+import MenuItem from "antd/lib/menu/MenuItem"; // plasmic-import: HZ6EmQgIQJr/codeComponent
+import SubMenu from "antd/lib/menu/SubMenu"; // plasmic-import: DSwQm8gUYob/codeComponent
 import Header from "../../Header"; // plasmic-import: IZ-2R-4QzkjxPd/component
 import Solutions from "../../Solutions"; // plasmic-import: 3H8XUEEcqJGPi-/component
 import PlatformTechnology from "../../PlatformTechnology"; // plasmic-import: CIREW4x60I/component
@@ -59,7 +63,7 @@ import Icon38Icon from "./icons/PlasmicIcon__Icon38"; // plasmic-import: eFdS-6k
 import ArrowRightsvgIcon from "./icons/PlasmicIcon__ArrowRightsvg"; // plasmic-import: dgkW2n0oQvm_D7/icon
 import fathymaqua01Svg2PxOyhsqFy from "./images/fathymaqua01Svg2.svg"; // plasmic-import: PXOyhsqFy/picture
 import microsoftTeamsImage24PngXuQ7XFto from "./images/microsoftTeamsImage24Png.png"; // plasmic-import: XuQ-7xFTO/picture
-import microsoftTeamsImage30PngPwalkPoYa from "./images/microsoftTeamsImage30Png.png"; // plasmic-import: pwalkPoYA/picture
+import emulatedDevicesTelemetrypngBWzbiKnma from "./images/emulatedDevicesTelemetrypng.png"; // plasmic-import: BWzbiKNMA/picture
 import routeScreenshotjpgZgtw1ArX from "../habistack_marketing/images/routeScreenshotjpg.jpeg"; // plasmic-import: ZGTW1AR_x/picture
 import microsoftTeamsImage29PngVgis0Ofiy from "./images/microsoftTeamsImage29Png.png"; // plasmic-import: VGIS0ofiy/picture
 import agricultureCardpngETt3CgDdOFxbL from "./images/agricultureCardpng.png"; // plasmic-import: eTT3CG_ddOFxbL/picture
@@ -91,6 +95,12 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   header2?: p.Flex<typeof Header2>;
+  antdDropdown?: p.Flex<typeof Dropdown>;
+  antdMenu?: p.Flex<typeof Menu>;
+  fathymPlatform?: p.Flex<"div">;
+  ioTEnsemble?: p.Flex<"div">;
+  habistack?: p.Flex<"div">;
+  antdSubMenu?: p.Flex<typeof SubMenu>;
   header?: p.Flex<typeof Header>;
   solutions2?: p.Flex<typeof Solutions>;
   platformTechnology?: p.Flex<typeof PlatformTechnology>;
@@ -314,6 +324,154 @@ function PlasmicHomepage__RenderFunc(props: {
                     </Button>
                   ) : null}
                   {true ? (
+                    <Dropdown
+                      data-plasmic-name={"antdDropdown"}
+                      data-plasmic-override={overrides.antdDropdown}
+                      className={classNames("__wab_instance", sty.antdDropdown)}
+                      overlay={
+                        <Menu
+                          data-plasmic-name={"antdMenu"}
+                          data-plasmic-override={overrides.antdMenu}
+                          className={classNames("__wab_instance", sty.antdMenu)}
+                        >
+                          <MenuItem
+                            className={classNames(
+                              "__wab_instance",
+                              sty.antdMenuItem__r0F4Y
+                            )}
+                            key={"" as const}
+                            title={"Fathym Platform" as const}
+                          >
+                            <div
+                              data-plasmic-name={"fathymPlatform"}
+                              data-plasmic-override={overrides.fathymPlatform}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.fathymPlatform
+                              )}
+                            >
+                              {"Option"}
+                            </div>
+
+                            <MenuItem
+                              className={classNames(
+                                "__wab_instance",
+                                sty.antdMenuItem__erjQk
+                              )}
+                              key={"Fathym Platform" as const}
+                              title={"Fathym Platform" as const}
+                            >
+                              <div
+                                data-plasmic-name={"ioTEnsemble"}
+                                data-plasmic-override={overrides.ioTEnsemble}
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.ioTEnsemble
+                                )}
+                              >
+                                {"Option"}
+                              </div>
+
+                              <MenuItem
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.antdMenuItem__tkEAj
+                                )}
+                                key={"Fathym Platform" as const}
+                                title={"Fathym Platform" as const}
+                              >
+                                <div
+                                  data-plasmic-name={"habistack"}
+                                  data-plasmic-override={overrides.habistack}
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.habistack
+                                  )}
+                                >
+                                  {"Option"}
+                                </div>
+                              </MenuItem>
+                            </MenuItem>
+                          </MenuItem>
+
+                          {true ? (
+                            <SubMenu
+                              data-plasmic-name={"antdSubMenu"}
+                              data-plasmic-override={overrides.antdSubMenu}
+                              className={classNames(
+                                "__wab_instance",
+                                sty.antdSubMenu
+                              )}
+                              key={"subMenuKey" as const}
+                              title={
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__ba5Cf
+                                  )}
+                                >
+                                  {"Sub-menu"}
+                                </div>
+                              }
+                            >
+                              <MenuItem
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.antdMenuItem__m5UuE
+                                )}
+                                key={"subMenuItemKey1" as const}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text___00Sdm
+                                  )}
+                                >
+                                  {"Sub-menu item 1"}
+                                </div>
+                              </MenuItem>
+
+                              <MenuItem
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.antdMenuItem__sTwFf
+                                )}
+                                key={"subMenuItemKey2" as const}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__eJqb1
+                                  )}
+                                >
+                                  {"Sub-menu item 2"}
+                                </div>
+                              </MenuItem>
+                            </SubMenu>
+                          ) : null}
+                        </Menu>
+                      }
+                    >
+                      {true ? (
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__uUSxh
+                          )}
+                        >
+                          {"Products"}
+                        </div>
+                      ) : null}
+                    </Dropdown>
+                  ) : null}
+                  {true ? (
                     <Button
                       className={classNames(
                         "__wab_instance",
@@ -360,10 +518,15 @@ function PlasmicHomepage__RenderFunc(props: {
                       }
                       link={"https://www.fathym.com/docs" as const}
                       startIcon={
-                        <ChecksvgIcon
-                          className={classNames(projectcss.all, sty.svg__lHIuC)}
-                          role={"img"}
-                        />
+                        true ? (
+                          <ChecksvgIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__lHIuC
+                            )}
+                            role={"img"}
+                          />
+                        ) : null
                       }
                     >
                       <div
@@ -885,9 +1048,9 @@ function PlasmicHomepage__RenderFunc(props: {
                       }
                       loading={"lazy" as const}
                       src={{
-                        src: microsoftTeamsImage30PngPwalkPoYa,
-                        fullWidth: 1770,
-                        fullHeight: 1065,
+                        src: emulatedDevicesTelemetrypngBWzbiKnma,
+                        fullWidth: 2812,
+                        fullHeight: 1538,
                         aspectRatio: undefined
                       }}
                     />
@@ -1118,7 +1281,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h4__rDRge
                           )}
                         >
-                          {"From biotech device to the cloud in no time."}
+                          {"From biotech device to cloud-based app in no time."}
                         </h4>
 
                         {true ? (
@@ -3258,6 +3421,12 @@ const PlasmicDescendants = {
   root: [
     "root",
     "header2",
+    "antdDropdown",
+    "antdMenu",
+    "fathymPlatform",
+    "ioTEnsemble",
+    "habistack",
+    "antdSubMenu",
     "header",
     "solutions2",
     "platformTechnology",
@@ -3276,6 +3445,25 @@ const PlasmicDescendants = {
     "newFathymFooter"
   ],
   header2: ["header2"],
+  antdDropdown: [
+    "antdDropdown",
+    "antdMenu",
+    "fathymPlatform",
+    "ioTEnsemble",
+    "habistack",
+    "antdSubMenu"
+  ],
+  antdMenu: [
+    "antdMenu",
+    "fathymPlatform",
+    "ioTEnsemble",
+    "habistack",
+    "antdSubMenu"
+  ],
+  fathymPlatform: ["fathymPlatform"],
+  ioTEnsemble: ["ioTEnsemble"],
+  habistack: ["habistack"],
+  antdSubMenu: ["antdSubMenu"],
   header: ["header"],
   solutions2: ["solutions2"],
   platformTechnology: ["platformTechnology"],
@@ -3307,6 +3495,12 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   header2: typeof Header2;
+  antdDropdown: typeof Dropdown;
+  antdMenu: typeof Menu;
+  fathymPlatform: "div";
+  ioTEnsemble: "div";
+  habistack: "div";
+  antdSubMenu: typeof SubMenu;
   header: typeof Header;
   solutions2: typeof Solutions;
   platformTechnology: typeof PlatformTechnology;
@@ -3387,6 +3581,12 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     header2: makeNodeComponent("header2"),
+    antdDropdown: makeNodeComponent("antdDropdown"),
+    antdMenu: makeNodeComponent("antdMenu"),
+    fathymPlatform: makeNodeComponent("fathymPlatform"),
+    ioTEnsemble: makeNodeComponent("ioTEnsemble"),
+    habistack: makeNodeComponent("habistack"),
+    antdSubMenu: makeNodeComponent("antdSubMenu"),
     header: makeNodeComponent("header"),
     solutions2: makeNodeComponent("solutions2"),
     platformTechnology: makeNodeComponent("platformTechnology"),

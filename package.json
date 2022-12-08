@@ -18,17 +18,21 @@
     "@plasmicapp/cli": "^0.1.188",
     "@plasmicapp/host": "^1.0.85",
     "@plasmicapp/react-web": "^0.2.117",
+    "@plasmicpkgs/antd": "^0.0.105",
     "@plasmicpkgs/lottie-react": "^0.0.69",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.88",
     "@plasmicpkgs/plasmic-query": "^0.0.98",
     "@plasmicpkgs/react-awesome-reveal": "^3.8.81",
     "@plasmicpkgs/react-scroll-parallax": "^0.0.86",
     "@plasmicpkgs/react-youtube": "^7.13.84",
+    "antd": "^5.0.5",
     "gatsby": "^4.24.4",
     "gatsby-plugin-react-helmet": "^5.24.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.45",
